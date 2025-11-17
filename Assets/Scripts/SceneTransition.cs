@@ -4,11 +4,21 @@ using UnityEngine.SceneManagement;
 public class SceneTransition : MonoBehaviour
 {
     [Header("Buttons")]
+    [Tooltip("Assign the SceneLoadButton.")]
     [SerializeField] public Button SceneLoadButton; // Spider Logo Button
+
+    [Tooltip("Assign the startgamebutton.")]
     [SerializeField] private Button startgamebutton;
+
+    [Tooltip("Assign the Quitbutton.")]
     [SerializeField] private Button Quitbutton;
+
+    [Tooltip("Assign the optionsButton.")]
     [SerializeField] private Button optionsButton;
+
+    [Tooltip("Assign the OptionsBackButton.")]
     [SerializeField] private Button OptionsBackButton;
+
     [Header("GameObjects")]
     [SerializeField] private GameObject MainPanel;
     [SerializeField] private GameObject OptionsPanel;

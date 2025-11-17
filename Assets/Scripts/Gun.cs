@@ -1,4 +1,4 @@
-using UnityEditorInternal;
+//using UnityEditorInternal;
 using UnityEngine.Audio;
 using UnityEngine;
 public class Gun : MonoBehaviour

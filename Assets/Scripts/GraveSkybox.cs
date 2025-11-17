@@ -1,15 +1,24 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GraveSkybox : MonoBehaviour
 {
     public Material UpdateSkybox;
     public Material existingskybox;
+    [Header("Grave Panels")]
+    public GameObject GravePanels;
+
+    private void Awake()
+    {
+        GravePanels.SetActive(false);
+    }
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
             RenderSettings.skybox = UpdateSkybox;
             DynamicGI.UpdateEnvironment();
+            GravePanels.SetActive(true);
         }
     }
 
@@ -17,5 +26,6 @@ public class GraveSkybox : MonoBehaviour
     {
         RenderSettings.skybox = existingskybox;
         DynamicGI.UpdateEnvironment();
+        GravePanels.SetActive(false);
     }
 }
