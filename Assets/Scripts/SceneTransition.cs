@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEngine.Playables;
 public class SceneTransition : MonoBehaviour
 {
     [Header("Buttons")]
@@ -19,18 +20,35 @@ public class SceneTransition : MonoBehaviour
     [Tooltip("Assign the OptionsBackButton.")]
     [SerializeField] private Button OptionsBackButton;
 
+    [Header("FadeAnimator")]
+    public Animator FadeAnimator;
+    public PlayableDirector CutscenePlayer;
+
     [Header("GameObjects")]
     [SerializeField] private GameObject MainPanel;
     [SerializeField] private GameObject OptionsPanel;
     [SerializeField] private GameObject ControlsPanel;
 
+    [Header("ParticleSystems")]
+    [SerializeField] private ParticleSystem DialogueEffect;
+    [SerializeField] private ParticleSystem MenuBackGroundEffect;
+
     private bool PanelActive = false;
 
     private void Start()
     {
+        CutscenePlayer.stopped += OnTimelineFinished;
+        MenuBackGroundEffect.gameObject.SetActive(!PanelActive);  //True.
+        MenuBackGroundEffect.Play();
         MainPanel.SetActive(!PanelActive);  //True.
         OptionsPanel.SetActive(PanelActive);  //False.
         ControlsPanel.SetActive(PanelActive);  //False.
+        DialogueEffect.gameObject.SetActive(PanelActive);  //False.
+    }
+
+    void OnTimelineFinished(PlayableDirector director)
+    {
+        SceneManager.LoadScene(2);
     }
     public void OnButtonClick()
     {
@@ -43,7 +61,11 @@ public class SceneTransition : MonoBehaviour
 
     public void StartGame()
     {
-        SceneManager.LoadScene(2);  //Glitch_Scene
+        MenuBackGroundEffect.gameObject.SetActive(PanelActive);
+        FadeAnimator.Play("StartButtonFadeAnimation");
+
+        //Timeline Logic goes here...
+        CutscenePlayer.Play();
     }
 
     public void Quit()

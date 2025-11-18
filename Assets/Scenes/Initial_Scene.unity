@@ -366,7 +366,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 63276607}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.22514427, y: 0.0062149265, z: -0.0014361577, w: 0.9743046}
+  m_LocalRotation: {x: 0.22514427, y: 0.006214927, z: -0.0014361579, w: 0.9743046}
   m_LocalPosition: {x: 1.0409037, y: 0.5497507, z: 17.767118}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1762,8 +1762,10 @@ MonoBehaviour:
   Quitbutton: {fileID: 0}
   optionsButton: {fileID: 0}
   OptionsBackButton: {fileID: 0}
+  FadeAnimator: {fileID: 0}
   MainPanel: {fileID: 0}
   OptionsPanel: {fileID: 0}
+  ControlsPanel: {fileID: 0}
 --- !u!4 &400560562
 Transform:
   m_ObjectHideFlags: 0
@@ -6849,7 +6851,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 739362439}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.00020948169, y: 0.9996285, z: 0.026043756, w: -0.008040481}
+  m_LocalRotation: {x: 0.00020948221, y: 0.9996285, z: 0.026043776, w: -0.0080404775}
   m_LocalPosition: {x: 1.0826195, y: 0.6497507, z: 21.036852}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -8148,7 +8150,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1979395406}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.029031184, y: -0.08691275, z: 0.0025338482, w: 0.99578965}
+  m_LocalRotation: {x: 0.029031172, y: -0.08691266, z: 0.0025338451, w: 0.99578965}
   m_LocalPosition: {x: 2.6416478, y: 1.1585063, z: 7.09}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
