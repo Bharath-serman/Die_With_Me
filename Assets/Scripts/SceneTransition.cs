@@ -22,6 +22,7 @@ public class SceneTransition : MonoBehaviour
     [Header("GameObjects")]
     [SerializeField] private GameObject MainPanel;
     [SerializeField] private GameObject OptionsPanel;
+    [SerializeField] private GameObject ControlsPanel;
 
     private bool PanelActive = false;
 
@@ -29,6 +30,7 @@ public class SceneTransition : MonoBehaviour
     {
         MainPanel.SetActive(!PanelActive);  //True.
         OptionsPanel.SetActive(PanelActive);  //False.
+        ControlsPanel.SetActive(PanelActive);  //False.
     }
     public void OnButtonClick()
     {
@@ -61,12 +63,31 @@ public class SceneTransition : MonoBehaviour
         MainPanel.SetActive(!PanelActive);  //True.
     }
 
+    public void OpenControlsPanel()
+    {
+        ControlsPanel.SetActive(!PanelActive);  //True.
+        MainPanel.SetActive(PanelActive);  //False.
+    }
+
+    public void GobackControls()
+    {
+        ControlsPanel.SetActive(PanelActive);  //False.
+        MainPanel.SetActive(!PanelActive);  //True.
+    }
+
     private void Update()
     {
         //Check for Escape button click
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            Gobackoptions();
+            if (OptionsPanel)
+            {
+                Gobackoptions();
+            }
+            if (ControlsPanel)
+            {
+                GobackControls();
+            }
         }
     }
 }
