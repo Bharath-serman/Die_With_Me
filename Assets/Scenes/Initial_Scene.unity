@@ -1763,9 +1763,12 @@ MonoBehaviour:
   optionsButton: {fileID: 0}
   OptionsBackButton: {fileID: 0}
   FadeAnimator: {fileID: 0}
+  CutscenePlayer: {fileID: 0}
   MainPanel: {fileID: 0}
   OptionsPanel: {fileID: 0}
   ControlsPanel: {fileID: 0}
+  DialogueEffect: {fileID: 0}
+  MenuBackGroundEffect: {fileID: 0}
 --- !u!4 &400560562
 Transform:
   m_ObjectHideFlags: 0
