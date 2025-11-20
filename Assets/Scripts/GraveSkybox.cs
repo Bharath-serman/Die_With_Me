@@ -7,10 +7,14 @@ public class GraveSkybox : MonoBehaviour
     public Material existingskybox;
     [Header("Grave Panels")]
     public GameObject GravePanels;
+    private bool PanelActive = true;
 
     private void Awake()
     {
-        GravePanels.SetActive(false);
+        if (PanelActive)
+        {
+            GravePanels.SetActive(false);
+        }
     }
     private void OnTriggerEnter(Collider other)
     {

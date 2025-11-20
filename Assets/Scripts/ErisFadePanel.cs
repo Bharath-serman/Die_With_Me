@@ -9,6 +9,7 @@ public class ErisFadePanel : MonoBehaviour
     [Header("TimeLine")]
     public PlayableDirector GlitchLevelTimeline;
 
+
     private void OnTriggerEnter(Collider other)
     {
         ErisFadeAnimator.SetTrigger("Eris");
