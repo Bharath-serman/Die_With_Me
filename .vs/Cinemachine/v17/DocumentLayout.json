@@ -3,24 +3,36 @@
   "WorkspaceRootPath": "D:\\Cinemachine\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AC0D2113-A2CD-A9BC-974A-AC29F3A95212}|Assembly-CSharp.csproj|d:\\cinemachine\\assets\\scripts\\quest_1\\visualnovel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC0D2113-A2CD-A9BC-974A-AC29F3A95212}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\quest_1\\visualnovel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC0D2113-A2CD-A9BC-974A-AC29F3A95212}|Assembly-CSharp.csproj|d:\\cinemachine\\assets\\scripts\\erisfadepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC0D2113-A2CD-A9BC-974A-AC29F3A95212}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\erisfadepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AC0D2113-A2CD-A9BC-974A-AC29F3A95212}|Assembly-CSharp.csproj|D:\\Cinemachine\\assets\\scripts\\quest_1\\questgiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC0D2113-A2CD-A9BC-974A-AC29F3A95212}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\quest_1\\questgiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC0D2113-A2CD-A9BC-974A-AC29F3A95212}|Assembly-CSharp.csproj|d:\\cinemachine\\assets\\scripts\\quest_1\\visualnovel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC0D2113-A2CD-A9BC-974A-AC29F3A95212}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\quest_1\\visualnovel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC0D2113-A2CD-A9BC-974A-AC29F3A95212}|Assembly-CSharp.csproj|D:\\Cinemachine\\assets\\scripts\\quest_1\\vnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC0D2113-A2CD-A9BC-974A-AC29F3A95212}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\quest_1\\vnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AC0D2113-A2CD-A9BC-974A-AC29F3A95212}|Assembly-CSharp.csproj|d:\\cinemachine\\assets\\scripts\\scenetransition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC0D2113-A2CD-A9BC-974A-AC29F3A95212}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scenetransition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC0D2113-A2CD-A9BC-974A-AC29F3A95212}|Assembly-CSharp.csproj|d:\\cinemachine\\assets\\scripts\\quest_1\\vnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC0D2113-A2CD-A9BC-974A-AC29F3A95212}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\quest_1\\vnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AC0D2113-A2CD-A9BC-974A-AC29F3A95212}|Assembly-CSharp.csproj|D:\\Cinemachine\\assets\\scripts\\settingsmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC0D2113-A2CD-A9BC-974A-AC29F3A95212}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\settingsmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC0D2113-A2CD-A9BC-974A-AC29F3A95212}|Assembly-CSharp.csproj|D:\\Cinemachine\\assets\\scripts\\quest_1\\blink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC0D2113-A2CD-A9BC-974A-AC29F3A95212}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\quest_1\\blink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC0D2113-A2CD-A9BC-974A-AC29F3A95212}|Assembly-CSharp.csproj|d:\\cinemachine\\assets\\scripts\\worldchanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC0D2113-A2CD-A9BC-974A-AC29F3A95212}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\worldchanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,8 +42,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 199,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WorldChanger.cs",
+              "DocumentMoniker": "D:\\Cinemachine\\Assets\\Scripts\\WorldChanger.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\WorldChanger.cs",
+              "ToolTip": "D:\\Cinemachine\\Assets\\Scripts\\WorldChanger.cs",
+              "RelativeToolTip": "Assets\\Scripts\\WorldChanger.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T03:45:38.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Blink.cs",
+              "DocumentMoniker": "D:\\Cinemachine\\Assets\\Scripts\\Quest_1\\Blink.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Quest_1\\Blink.cs",
+              "ToolTip": "D:\\Cinemachine\\Assets\\Scripts\\Quest_1\\Blink.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Quest_1\\Blink.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T11:55:03.982Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
@@ -40,33 +78,20 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Quest_1\\VNManager.cs",
               "ToolTip": "D:\\Cinemachine\\Assets\\Scripts\\Quest_1\\VNManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Quest_1\\VNManager.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAuwBgAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-20T07:10:37.266Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "VisualNovel.cs",
-              "DocumentMoniker": "D:\\Cinemachine\\Assets\\Scripts\\Quest_1\\VisualNovel.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Quest_1\\VisualNovel.cs",
-              "ToolTip": "D:\\Cinemachine\\Assets\\Scripts\\Quest_1\\VisualNovel.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Quest_1\\VisualNovel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHMAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T06:07:11.35Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "QuestGiver.cs",
               "DocumentMoniker": "D:\\Cinemachine\\Assets\\Scripts\\Quest_1\\QuestGiver.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Quest_1\\QuestGiver.cs",
               "ToolTip": "D:\\Cinemachine\\Assets\\Scripts\\Quest_1\\QuestGiver.cs",
               "RelativeToolTip": "Assets\\Scripts\\Quest_1\\QuestGiver.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAkAAAA",
+              "ViewState": "AQIAABcAAAAAAAAAAAAAwCMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-17T12:25:23.842Z",
               "EditorCaption": ""
@@ -75,24 +100,50 @@
         },
         {
           "DockedWidth": 201,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "ErisFadePanel.cs",
+              "DocumentMoniker": "D:\\Cinemachine\\Assets\\Scripts\\ErisFadePanel.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ErisFadePanel.cs",
+              "ToolTip": "D:\\Cinemachine\\Assets\\Scripts\\ErisFadePanel.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ErisFadePanel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T06:30:27.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VisualNovel.cs",
+              "DocumentMoniker": "D:\\Cinemachine\\Assets\\Scripts\\Quest_1\\VisualNovel.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Quest_1\\VisualNovel.cs",
+              "ToolTip": "D:\\Cinemachine\\Assets\\Scripts\\Quest_1\\VisualNovel.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Quest_1\\VisualNovel.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAAAEsAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T06:07:11.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "SceneTransition.cs",
               "DocumentMoniker": "D:\\Cinemachine\\Assets\\Scripts\\SceneTransition.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SceneTransition.cs",
               "ToolTip": "D:\\Cinemachine\\Assets\\Scripts\\SceneTransition.cs",
               "RelativeToolTip": "Assets\\Scripts\\SceneTransition.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-08T12:35:32.569Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "SettingsMenu.cs",
               "DocumentMoniker": "D:\\Cinemachine\\Assets\\Scripts\\SettingsMenu.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SettingsMenu.cs",
@@ -100,7 +151,8 @@
               "RelativeToolTip": "Assets\\Scripts\\SettingsMenu.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T14:19:07.193Z"
+              "WhenOpened": "2025-11-14T14:19:07.193Z",
+              "EditorCaption": ""
             }
           ]
         }

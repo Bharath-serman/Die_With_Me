@@ -1,91 +1,20 @@
 using UnityEngine;
 using TMPro;
-using System.Collections;
-
-public class VisualNovel : MonoBehaviour
-{
-    [TextArea] public string[] DialogueLines;
-    public string[] SpeakerNames;
-    public TMP_Text Text_Area;
-    public TMP_Text SpeakerText;
-    public AudioClip[] audios;
-    public AudioSource source;
-
-    public float typingSpeed = 0.03f;  
-    private int index = 0;
-    private bool isTyping = false;
-
-    void Start()
-    {
-        ShowLine();
-    }
-
-    public void NextLine()
-    {
-        if (isTyping) 
-        {
-            StopAllCoroutines();
-            Text_Area.text = DialogueLines[index];
-            isTyping = false;
-            return;
-        }
-
-        if (index < DialogueLines.Length - 1)
-        {
-            index++;
-            ShowLine();
-        }
-        else
-        {
-            gameObject.SetActive(false);
-        }
-    }
-
-    public void ShowLine()
-    {
-        if (SpeakerNames != null && index < SpeakerNames.Length)
-            SpeakerText.text = SpeakerNames[index];
-
-        if (audios != null && index < audios.Length && audios[index] != null)
-        {
-            source.clip = audios[index];
-            source.Play();
-        }
-
-        StopAllCoroutines();
-        StartCoroutine(TypeText(DialogueLines[index]));
-    }
-
-    IEnumerator TypeText(string line)   
-    {
-        isTyping = true;
-        Text_Area.text = ""; 
-
-        foreach (char letter in line.ToCharArray())
-        {
-            Text_Area.text += letter;
-            yield return new WaitForSeconds(typingSpeed);
-        }
-
-        isTyping = false;
-    }
-}
-
-/*
-using UnityEngine;
-using TMPro;
 using UnityEngine.UI;
 using System.Collections;
+using UnityEngine.Video;
+using System.Collections.Generic;
 
 public class VisualNovel : MonoBehaviour
 {
     [TextArea] public string[] DialogueLines;
-    public string[] SpeakerNames;
+     public string[] SpeakerNames;
 
     public TMP_Text Text_Area;
     public TMP_Text SpeakerText;
     public AudioClip[] audios;
     public AudioSource source;
+    public VideoPlayer IntroPlayer;
 
     public Image backgroundPanel;             
     public Sprite[] backgroundImages;         
@@ -96,9 +25,17 @@ public class VisualNovel : MonoBehaviour
     private int index = 0;
     private bool isTyping = false;
 
+    public GameObject Eris;  //The Main Character.
+    public CanvasGroup ErisCanvasGroup;
+
+    private int currentbackgroundindex = 0;
+
+    public List<GameObject> Ridlist;
+
     void Start()
     {
         ShowLine();
+        Eris.SetActive(false);
     }
 
     public void NextLine()
@@ -114,8 +51,44 @@ public class VisualNovel : MonoBehaviour
         if (index < DialogueLines.Length - 1)
         {
             index++;
-            if (index == 3) StartCoroutine(ChangeBackground(1));
-            if (index == 6) StartCoroutine(ChangeBackground(2));
+            if (index == 23)
+            {
+                currentbackgroundindex = 1;
+                StartCoroutine(ChangeBackground(1));
+            }
+
+            if(index == 4)
+            {
+                Eris.SetActive(true);
+                StartCoroutine(FadeinEris());
+            }
+
+            if(index == 19)
+            {
+                Eris.SetActive(false);
+                StartCoroutine(Flicker(2f, 4));
+            }
+
+            if(index == 31)
+            {
+                foreach(GameObject go in Ridlist)
+                {
+                    go.SetActive(false);
+                }
+
+                IntroPlayer.Play();
+                IntroPlayer.isLooping = false;
+            }
+
+            if(index >= 23 && index <= 30)
+            {
+                Text_Area.color = Color.red;
+                DialogueLines[index] = DialogueLines[index].ToUpper();
+            }
+            else
+            {
+                Text_Area.color = Color.white;
+            }
 
             ShowLine();
         }
@@ -172,5 +145,33 @@ public class VisualNovel : MonoBehaviour
             yield return null;
         }
     }
+
+    IEnumerator FadeinEris()
+    {
+        float elapsed = 0f;
+
+        while (elapsed < fadeDuration)
+        {
+            elapsed += Time.deltaTime;
+            ErisCanvasGroup.alpha = Mathf.Lerp(0, 1, elapsed / fadeDuration);
+            yield return null;
+        }
+        ErisCanvasGroup.alpha = 1;
+    }
+
+    IEnumerator Flicker(float flickerduration , int repeatcount = 2)
+    {
+        for(int i = 0; i < repeatcount; i++)
+        {
+            backgroundPanel.color = Color.black;  //Black color
+            backgroundPanel.sprite = null;
+
+            yield return new WaitForSeconds(flickerduration);
+
+            backgroundPanel.sprite = backgroundImages[currentbackgroundindex];
+            backgroundPanel.color = new Color(1, 1, 1, 1);  //White color.
+
+            yield return new WaitForSeconds(flickerduration);
+        }
+    }
 }
-*/

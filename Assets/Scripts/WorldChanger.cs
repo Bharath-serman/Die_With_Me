@@ -29,6 +29,7 @@ public class WorldChanger : MonoBehaviour
             obj.SetActive(false);
         }
         quest = giver.quest;
+
     }
 
     public void disableobjects()

@@ -1,5 +1,6 @@
 using StarterAssets;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class VNManager : MonoBehaviour
 {
@@ -34,4 +35,5 @@ public class VNManager : MonoBehaviour
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
     }
+
 }

@@ -28,6 +28,12 @@ public class QuestGiver : MonoBehaviour
 
     private void Update()
     {
+
+        if (ErisFadePanel.isplaying)
+        {
+            return;
+        }
+
         if (Input.GetKeyDown(KeyCode.Q))
         {
             openquestpanel();
