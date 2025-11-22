@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Spidey
+  - CinemachineTarget
   layers:
   - Default
   - TransparentFX
@@ -16,8 +17,8 @@ TagManager:
   - MinimapIcons
   - EntireWorld
   - EnemyIcon
-  - 
-  - 
+  - UI_Disable
+  - UI_Enable
   - 
   - 
   - 
@@ -44,4 +45,7 @@ TagManager:
     locked: 0
   - name: Buttons
     uniqueID: 566435205
+    locked: 0
+  - name: Nami
+    uniqueID: 1235416731
     locked: 0

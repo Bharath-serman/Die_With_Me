@@ -4,12 +4,12 @@ using UnityEngine.Audio;
 
 public class SettingsMenu : MonoBehaviour
 {
-    //Audio Mixer
-    public AudioMixer MainMenuMixer;
+    public AudioMixer mixer;
 
-    public void SetVolume(float volume)
+    public void setVolume(float volume)
     {
-        MainMenuMixer.SetFloat("volume.", volume);
+        mixer.SetFloat("volume." , volume);
+
     }
 
     public void setQuality(int index)

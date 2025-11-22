@@ -31,6 +31,8 @@ public class VisualNovel : MonoBehaviour
     private int currentbackgroundindex = 0;
 
     public List<GameObject> Ridlist;
+    public GameObject NextDialogueButton;
+
 
     void Start()
     {
@@ -66,7 +68,7 @@ public class VisualNovel : MonoBehaviour
             if(index == 19)
             {
                 Eris.SetActive(false);
-                StartCoroutine(Flicker(2f, 4));
+                StartCoroutine(Flicker(0.6f, 6));
             }
 
             if(index == 31)
@@ -161,6 +163,7 @@ public class VisualNovel : MonoBehaviour
 
     IEnumerator Flicker(float flickerduration , int repeatcount = 2)
     {
+        NextDialogueButton.SetActive(false);
         for(int i = 0; i < repeatcount; i++)
         {
             backgroundPanel.color = Color.black;  //Black color
@@ -173,5 +176,6 @@ public class VisualNovel : MonoBehaviour
 
             yield return new WaitForSeconds(flickerduration);
         }
+        NextDialogueButton.SetActive(true);
     }
 }

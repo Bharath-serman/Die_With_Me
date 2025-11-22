@@ -21,6 +21,9 @@ public class QuestGiver : MonoBehaviour
     public Image Outsidebackgroundimage;
     public int currentdescriptionindex = 0;
 
+    [Header("UI's that need to disable when the quespanel is open")]
+    public GameObject[] Objects;
+
     private void Start()
     {
         QuestPanel.SetActive(false);
@@ -48,6 +51,11 @@ public class QuestGiver : MonoBehaviour
 
         if (isOpen)
         {
+            foreach(var objs in Objects)
+            {
+                objs.SetActive(false);
+            }
+
             Time.timeScale = 0;
             titletext.text = quest.title;
             descriptiontext.text = quest.description[currentdescriptionindex];
@@ -57,6 +65,11 @@ public class QuestGiver : MonoBehaviour
         }
         else
         {
+            foreach (var objs in Objects)
+            {
+                objs.SetActive(true);
+            }
+
             Time.timeScale = 1;
             Outsidetitletext.gameObject.SetActive(true);
             Outsidedescriptiontext.gameObject.SetActive(true);
