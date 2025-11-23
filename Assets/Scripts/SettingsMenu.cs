@@ -9,7 +9,6 @@ public class SettingsMenu : MonoBehaviour
     public void setVolume(float volume)
     {
         mixer.SetFloat("volume." , volume);
-
     }
 
     public void setQuality(int index)

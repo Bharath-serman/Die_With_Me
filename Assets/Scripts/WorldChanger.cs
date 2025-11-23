@@ -52,6 +52,12 @@ public class WorldChanger : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            int qualitylevel = QualitySettings.GetQualityLevel();
+
+            if(qualitylevel <= 1)
+            {
+
+            }
             RenderSettings.skybox = newskybox;
             RenderSettings.ambientLight = newalight;
 

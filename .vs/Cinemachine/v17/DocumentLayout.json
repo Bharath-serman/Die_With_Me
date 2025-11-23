@@ -3,44 +3,32 @@
   "WorkspaceRootPath": "D:\\Cinemachine\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AC0D2113-A2CD-A9BC-974A-AC29F3A95212}|Assembly-CSharp.csproj|D:\\Cinemachine\\assets\\scripts\\quest_1\\visualnovel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC0D2113-A2CD-A9BC-974A-AC29F3A95212}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\quest_1\\visualnovel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4D6116B-7D1F-67FE-CBE1-2BF925B4F771}|Assembly-CSharp-Editor.csproj|d:\\cinemachine\\assets\\editor\\findbrokenassets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4D6116B-7D1F-67FE-CBE1-2BF925B4F771}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\findbrokenassets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4D6116B-7D1F-67FE-CBE1-2BF925B4F771}|Assembly-CSharp-Editor.csproj|d:\\cinemachine\\assets\\editor\\findmissingscripts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4D6116B-7D1F-67FE-CBE1-2BF925B4F771}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\findmissingscripts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AC0D2113-A2CD-A9BC-974A-AC29F3A95212}|Assembly-CSharp.csproj|D:\\Cinemachine\\assets\\scripts\\mainmenucanvas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC0D2113-A2CD-A9BC-974A-AC29F3A95212}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmenucanvas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AC0D2113-A2CD-A9BC-974A-AC29F3A95212}|Assembly-CSharp.csproj|d:\\cinemachine\\assets\\scripts\\erisfadepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC0D2113-A2CD-A9BC-974A-AC29F3A95212}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\erisfadepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC0D2113-A2CD-A9BC-974A-AC29F3A95212}|Assembly-CSharp.csproj|d:\\cinemachine\\assets\\scripts\\graveskybox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC0D2113-A2CD-A9BC-974A-AC29F3A95212}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\graveskybox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AC0D2113-A2CD-A9BC-974A-AC29F3A95212}|Assembly-CSharp.csproj|D:\\Cinemachine\\assets\\scripts\\quest_1\\questgiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC0D2113-A2CD-A9BC-974A-AC29F3A95212}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\quest_1\\questgiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC0D2113-A2CD-A9BC-974A-AC29F3A95212}|Assembly-CSharp.csproj|D:\\Cinemachine\\assets\\scripts\\settingsmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC0D2113-A2CD-A9BC-974A-AC29F3A95212}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\settingsmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC0D2113-A2CD-A9BC-974A-AC29F3A95212}|Assembly-CSharp.csproj|D:\\Cinemachine\\assets\\scripts\\worldchanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC0D2113-A2CD-A9BC-974A-AC29F3A95212}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\worldchanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AC0D2113-A2CD-A9BC-974A-AC29F3A95212}|Assembly-CSharp.csproj|D:\\Cinemachine\\assets\\scripts\\scenetransition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC0D2113-A2CD-A9BC-974A-AC29F3A95212}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scenetransition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC0D2113-A2CD-A9BC-974A-AC29F3A95212}|Assembly-CSharp.csproj|D:\\Cinemachine\\assets\\scripts\\quest_1\\vnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC0D2113-A2CD-A9BC-974A-AC29F3A95212}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\quest_1\\vnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC0D2113-A2CD-A9BC-974A-AC29F3A95212}|Assembly-CSharp.csproj|D:\\Cinemachine\\assets\\scripts\\mainmenucanvas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC0D2113-A2CD-A9BC-974A-AC29F3A95212}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmenucanvas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC0D2113-A2CD-A9BC-974A-AC29F3A95212}|Assembly-CSharp.csproj|D:\\Cinemachine\\assets\\scripts\\worldchanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC0D2113-A2CD-A9BC-974A-AC29F3A95212}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\worldchanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC0D2113-A2CD-A9BC-974A-AC29F3A95212}|Assembly-CSharp.csproj|d:\\cinemachine\\assets\\scripts\\quest_1\\visualnovel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC0D2113-A2CD-A9BC-974A-AC29F3A95212}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\quest_1\\visualnovel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC0D2113-A2CD-A9BC-974A-AC29F3A95212}|Assembly-CSharp.csproj|D:\\Cinemachine\\assets\\scripts\\erisfadepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC0D2113-A2CD-A9BC-974A-AC29F3A95212}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\erisfadepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -49,138 +37,105 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 199,
+          "DockedWidth": 306,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FindBrokenAssets.cs",
-              "DocumentMoniker": "D:\\Cinemachine\\Assets\\Editor\\FindBrokenAssets.cs",
-              "RelativeDocumentMoniker": "Assets\\Editor\\FindBrokenAssets.cs",
-              "ToolTip": "D:\\Cinemachine\\Assets\\Editor\\FindBrokenAssets.cs",
-              "RelativeToolTip": "Assets\\Editor\\FindBrokenAssets.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "GraveSkybox.cs",
+              "DocumentMoniker": "D:\\Cinemachine\\Assets\\Scripts\\GraveSkybox.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GraveSkybox.cs",
+              "ToolTip": "D:\\Cinemachine\\Assets\\Scripts\\GraveSkybox.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GraveSkybox.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T13:59:17.318Z",
+              "WhenOpened": "2025-11-23T05:59:20.048Z",
               "EditorCaption": ""
             },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FindMissingScripts.cs",
-              "DocumentMoniker": "D:\\Cinemachine\\Assets\\Editor\\FindMissingScripts.cs",
-              "RelativeDocumentMoniker": "Assets\\Editor\\FindMissingScripts.cs",
-              "ToolTip": "D:\\Cinemachine\\Assets\\Editor\\FindMissingScripts.cs",
-              "RelativeToolTip": "Assets\\Editor\\FindMissingScripts.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T13:55:18.245Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainMenuCanvas.cs",
-              "DocumentMoniker": "D:\\Cinemachine\\Assets\\Scripts\\MainMenuCanvas.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenuCanvas.cs",
-              "ToolTip": "D:\\Cinemachine\\Assets\\Scripts\\MainMenuCanvas.cs",
-              "RelativeToolTip": "Assets\\Scripts\\MainMenuCanvas.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAQwCMAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T09:36:03.588Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "VNManager.cs",
-              "DocumentMoniker": "D:\\Cinemachine\\Assets\\Scripts\\Quest_1\\VNManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Quest_1\\VNManager.cs",
-              "ToolTip": "D:\\Cinemachine\\Assets\\Scripts\\Quest_1\\VNManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Quest_1\\VNManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T07:10:37.266Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "WorldChanger.cs",
-              "DocumentMoniker": "D:\\Cinemachine\\Assets\\Scripts\\WorldChanger.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\WorldChanger.cs",
-              "ToolTip": "D:\\Cinemachine\\Assets\\Scripts\\WorldChanger.cs",
-              "RelativeToolTip": "Assets\\Scripts\\WorldChanger.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T03:45:38.489Z"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 201,
-          "SelectedChildIndex": 2,
-          "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "QuestGiver.cs",
-              "DocumentMoniker": "D:\\Cinemachine\\Assets\\Scripts\\Quest_1\\QuestGiver.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Quest_1\\QuestGiver.cs",
-              "ToolTip": "D:\\Cinemachine\\Assets\\Scripts\\Quest_1\\QuestGiver.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Quest_1\\QuestGiver.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAuwCkAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T13:21:35.633Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ErisFadePanel.cs",
-              "DocumentMoniker": "D:\\Cinemachine\\Assets\\Scripts\\ErisFadePanel.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ErisFadePanel.cs",
-              "ToolTip": "D:\\Cinemachine\\Assets\\Scripts\\ErisFadePanel.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ErisFadePanel.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAAAA8AAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T13:21:10.237Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "VisualNovel.cs",
               "DocumentMoniker": "D:\\Cinemachine\\Assets\\Scripts\\Quest_1\\VisualNovel.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Quest_1\\VisualNovel.cs",
               "ToolTip": "D:\\Cinemachine\\Assets\\Scripts\\Quest_1\\VisualNovel.cs",
               "RelativeToolTip": "Assets\\Scripts\\Quest_1\\VisualNovel.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAAYwDcAAAAcAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-20T06:07:11.35Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
+              "Title": "WorldChanger.cs",
+              "DocumentMoniker": "D:\\Cinemachine\\Assets\\Scripts\\WorldChanger.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\WorldChanger.cs",
+              "ToolTip": "D:\\Cinemachine\\Assets\\Scripts\\WorldChanger.cs",
+              "RelativeToolTip": "Assets\\Scripts\\WorldChanger.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAYAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T03:45:38.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainMenuCanvas.cs",
+              "DocumentMoniker": "D:\\Cinemachine\\Assets\\Scripts\\MainMenuCanvas.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenuCanvas.cs",
+              "ToolTip": "D:\\Cinemachine\\Assets\\Scripts\\MainMenuCanvas.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MainMenuCanvas.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAwDUAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T09:36:03.588Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 295,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ErisFadePanel.cs",
+              "DocumentMoniker": "D:\\Cinemachine\\Assets\\Scripts\\ErisFadePanel.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ErisFadePanel.cs",
+              "ToolTip": "D:\\Cinemachine\\Assets\\Scripts\\ErisFadePanel.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ErisFadePanel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T13:21:10.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "SceneTransition.cs",
               "DocumentMoniker": "D:\\Cinemachine\\Assets\\Scripts\\SceneTransition.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SceneTransition.cs",
               "ToolTip": "D:\\Cinemachine\\Assets\\Scripts\\SceneTransition.cs",
               "RelativeToolTip": "Assets\\Scripts\\SceneTransition.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAuAAAA",
+              "ViewState": "AQIAACYAAAAAAAAAAAAAABMAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T12:35:32.569Z"
+              "WhenOpened": "2025-10-08T12:35:32.569Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SettingsMenu.cs",
-              "DocumentMoniker": "D:\\Cinemachine\\Assets\\Scripts\\SettingsMenu.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SettingsMenu.cs",
-              "ToolTip": "D:\\Cinemachine\\Assets\\Scripts\\SettingsMenu.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SettingsMenu.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAZAAAA",
+              "DocumentIndex": 1,
+              "Title": "QuestGiver.cs",
+              "DocumentMoniker": "D:\\Cinemachine\\Assets\\Scripts\\Quest_1\\QuestGiver.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Quest_1\\QuestGiver.cs",
+              "ToolTip": "D:\\Cinemachine\\Assets\\Scripts\\Quest_1\\QuestGiver.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Quest_1\\QuestGiver.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T14:19:07.193Z"
+              "WhenOpened": "2025-11-22T13:21:35.633Z",
+              "EditorCaption": ""
             }
           ]
         }
