@@ -21,7 +21,8 @@ public class QuestGiver : MonoBehaviour
     public Image Outsidebackgroundimage;
     public int currentdescriptionindex = 0;
 
-    [Header("UI's that need to disable when the quespanel is open")]
+    [Header("Disable_Objects")]
+    [Tooltip("UI's that need to disable when the quespanel is open")]
     public GameObject[] Objects;
 
     private void Start()
