@@ -8,8 +8,10 @@ public class MainMenuCanvas : MonoBehaviour
     public GameObject MainPanelz;
     public GameObject OptionsPanelz;
     public GameObject ControlsPanelz;
+    public GameObject SaveAndLoadPanel;
     private bool isPaused = false;
     public CinemachineBrain brain;
+    public GameObject ContinueButton;
 
     [Header("Cameras")]
     public Camera UICamera;
@@ -22,11 +24,25 @@ public class MainMenuCanvas : MonoBehaviour
 
     private void Start()
     {
-        MainPanelz.SetActive(false);  
+        MainPanelz.SetActive(false);
         OptionsPanelz.SetActive(false);
         ControlsPanelz.SetActive(false);
+        SaveAndLoadPanel.SetActive(false);
         UICamera.enabled = false;
         MainCamera.enabled = true;
+
+        bool anySave = false;
+
+        for (int i = 1; i <= 8; i++)
+        {
+            if (SaveSystem.SaveExists(i))
+            {
+                anySave = true;
+                break;
+            }
+        }
+
+        ContinueButton.SetActive(anySave);
     }
 
     private void Update()
@@ -47,6 +63,17 @@ public class MainMenuCanvas : MonoBehaviour
         }
     }
 
+    public void ContinueGame()
+    {
+        for (int i = 1; i <= 8; i++)
+        {
+            if (SaveSystem.SaveExists(i))
+            {
+                GameManager.Instance.Load(i);
+                break;
+            }
+        }
+     }
     private void PauseGame()
     {
         foreach(GameObject go in PanelsToHide)
@@ -59,6 +86,7 @@ public class MainMenuCanvas : MonoBehaviour
         MainPanelz.SetActive(true);   
         OptionsPanelz.SetActive(false);
         ControlsPanelz.SetActive(false);
+        SaveAndLoadPanel.SetActive(false);
         Time.timeScale = 0f;          // Pause game
         Cursor.lockState = CursorLockMode.None; 
         Cursor.visible = true;
@@ -77,10 +105,17 @@ public class MainMenuCanvas : MonoBehaviour
         MainPanelz.SetActive(false);  
         OptionsPanelz.SetActive(false);
         ControlsPanelz.SetActive(false);
+        SaveAndLoadPanel.SetActive(false);
         Time.timeScale = 1f;          // Resume game
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
         brain.enabled = true;
+    }
+
+    public void OpenSaveAndLoadPanel()
+    {
+        MainPanelz.SetActive(false);
+        SaveAndLoadPanel.SetActive(true);
     }
 
     public void OpenOptions()
@@ -98,6 +133,12 @@ public class MainMenuCanvas : MonoBehaviour
     public void BackOptions()
     {
         OptionsPanelz.SetActive(false);
+        MainPanelz.SetActive(true);
+    }
+
+    public void BackSaveAndLoad()
+    {
+        SaveAndLoadPanel.SetActive(false);
         MainPanelz.SetActive(true);
     }
 
