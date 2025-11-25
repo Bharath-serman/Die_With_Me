@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEngine.Playables;
+using UnityEngine.Audio;
 public class SceneTransition : MonoBehaviour
 {
     [Header("Buttons")]
@@ -33,6 +34,10 @@ public class SceneTransition : MonoBehaviour
     [SerializeField] private ParticleSystem DialogueEffect;
     [SerializeField] private ParticleSystem MenuBackGroundEffect;
 
+    [Header("Audios")]
+    public AudioSource source;
+    public AudioSource TimelineSource;
+
     private bool PanelActive = false;
 
     private void Start()
@@ -44,6 +49,8 @@ public class SceneTransition : MonoBehaviour
         OptionsPanel.SetActive(PanelActive);  //False.
         ControlsPanel.SetActive(PanelActive);  //False.
         DialogueEffect.gameObject.SetActive(PanelActive);  //False.
+        source.Play(); //Plays the Audio.
+        TimelineSource.Stop();  //Stops playing at start.
     }
 
     void OnTimelineFinished(PlayableDirector director)
@@ -62,6 +69,8 @@ public class SceneTransition : MonoBehaviour
     public void StartGame()
     {
         MenuBackGroundEffect.gameObject.SetActive(PanelActive);
+        source.Stop(); //Stop playing the MainMenu audio.
+        TimelineSource.Play();  //Plays the Timeline Audio.
         FadeAnimator.Play("StartButtonFadeAnimation");
 
         //Timeline Logic goes here...
