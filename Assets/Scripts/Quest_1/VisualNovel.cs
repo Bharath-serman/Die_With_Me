@@ -36,8 +36,12 @@ public class VisualNovel : MonoBehaviour
 
     void Start()
     {
-        ShowLine();
         Eris.SetActive(false);
+    }
+
+    public void StartVN()
+    {
+        ShowLine();
     }
 
     public void NextLine()

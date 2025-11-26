@@ -8,6 +8,10 @@ public class VNManager : MonoBehaviour
     public GameObject Player;
     public GameObject[] All_Canvases;
     public GameObject[] VN_Canvas;
+    public AudioSource BackgroundSource;
+
+    //VisualNovelScript
+    public VisualNovel novel;
 
     public void startVN()
     {
@@ -34,6 +38,12 @@ public class VNManager : MonoBehaviour
         }
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
+
+        if(novel != null)
+        {
+            novel.StartVN();
+            BackgroundSource.Play();
+        }
     }
 
 }
