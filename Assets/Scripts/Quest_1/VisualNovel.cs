@@ -4,6 +4,8 @@ using UnityEngine.UI;
 using System.Collections;
 using UnityEngine.Video;
 using System.Collections.Generic;
+using Unity.VisualScripting;
+using UnityEngine.VFX;
 
 public class VisualNovel : MonoBehaviour
 {
@@ -32,17 +34,48 @@ public class VisualNovel : MonoBehaviour
 
     public List<GameObject> Ridlist;
     public GameObject NextDialogueButton;
+    public VNManager vnManager;
+    public GameObject VideoObject;
 
 
     void Start()
     {
         Eris.SetActive(false);
+        IntroPlayer.loopPointReached += occurflicker;
+        IntroPlayer.started += StopBackgroundAudio;
     }
 
     public void StartVN()
     {
         ShowLine();
     }
+
+    void StopBackgroundAudio(VideoPlayer vp)
+    {
+        if (vnManager != null && vnManager.BackgroundSource != null)
+        {
+            vnManager.BackgroundSource.Stop();
+            Debug.Log("Rain / Background audio stopped when video started!");
+        }
+    }
+
+    public void occurflicker(VideoPlayer vp)
+    {
+        StartCoroutine(FlickerAndContinue());
+    }
+
+    IEnumerator FlickerAndContinue()
+    {
+        yield return StartCoroutine(Flicker(0.6f, 4));
+
+        currentbackgroundindex = 2;
+        yield return StartCoroutine(ChangeBackground(1));
+
+        VideoObject.SetActive(false);
+        NextDialogueButton.SetActive(true);
+        NextLine();   
+    }
+
 
     public void NextLine()
     {
@@ -84,6 +117,7 @@ public class VisualNovel : MonoBehaviour
 
                 IntroPlayer.Play();
                 IntroPlayer.isLooping = false;
+
             }
 
             if(index >= 23 && index <= 30)

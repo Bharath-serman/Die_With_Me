@@ -1769,6 +1769,8 @@ MonoBehaviour:
   ControlsPanel: {fileID: 0}
   DialogueEffect: {fileID: 0}
   MenuBackGroundEffect: {fileID: 0}
+  source: {fileID: 0}
+  TimelineSource: {fileID: 0}
 --- !u!4 &400560562
 Transform:
   m_ObjectHideFlags: 0
