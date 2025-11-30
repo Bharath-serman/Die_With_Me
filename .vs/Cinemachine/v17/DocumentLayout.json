@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{AC0D2113-A2CD-A9BC-974A-AC29F3A95212}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\quest_1\\visualnovel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC0D2113-A2CD-A9BC-974A-AC29F3A95212}|Assembly-CSharp.csproj|D:\\Cinemachine\\assets\\scripts\\quest_1\\vnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AC0D2113-A2CD-A9BC-974A-AC29F3A95212}|Assembly-CSharp.csproj|D:\\Cinemachine\\assets\\scripts\\saveandload\\savesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC0D2113-A2CD-A9BC-974A-AC29F3A95212}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\saveandload\\savesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC0D2113-A2CD-A9BC-974A-AC29F3A95212}|Assembly-CSharp.csproj|d:\\cinemachine\\assets\\scripts\\quest_1\\vnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC0D2113-A2CD-A9BC-974A-AC29F3A95212}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\quest_1\\vnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC0D2113-A2CD-A9BC-974A-AC29F3A95212}|Assembly-CSharp.csproj|d:\\cinemachine\\assets\\scripts\\scenetransition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AC0D2113-A2CD-A9BC-974A-AC29F3A95212}|Assembly-CSharp.csproj|D:\\Cinemachine\\assets\\scripts\\scenetransition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC0D2113-A2CD-A9BC-974A-AC29F3A95212}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scenetransition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AC0D2113-A2CD-A9BC-974A-AC29F3A95212}|Assembly-CSharp.csproj|D:\\Cinemachine\\assets\\scripts\\saveandload\\savesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC0D2113-A2CD-A9BC-974A-AC29F3A95212}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\saveandload\\savesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AC0D2113-A2CD-A9BC-974A-AC29F3A95212}|Assembly-CSharp.csproj|D:\\Cinemachine\\assets\\scripts\\settingsmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +34,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "SceneTransition.cs",
               "DocumentMoniker": "D:\\Cinemachine\\Assets\\Scripts\\SceneTransition.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SceneTransition.cs",
@@ -42,18 +42,17 @@
               "RelativeToolTip": "Assets\\Scripts\\SceneTransition.cs",
               "ViewState": "AQIAACgAAAAAAAAAAAAAAEwAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T12:35:32.569Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-08T12:35:32.569Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "VNManager.cs",
               "DocumentMoniker": "D:\\Cinemachine\\Assets\\Scripts\\Quest_1\\VNManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Quest_1\\VNManager.cs",
               "ToolTip": "D:\\Cinemachine\\Assets\\Scripts\\Quest_1\\VNManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Quest_1\\VNManager.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAAAB8AAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-26T07:42:42.475Z",
               "EditorCaption": ""
@@ -78,15 +77,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "SaveSystem.cs",
               "DocumentMoniker": "D:\\Cinemachine\\Assets\\Scripts\\SaveAndLoad\\SaveSystem.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SaveAndLoad\\SaveSystem.cs",
               "ToolTip": "D:\\Cinemachine\\Assets\\Scripts\\SaveAndLoad\\SaveSystem.cs",
               "RelativeToolTip": "Assets\\Scripts\\SaveAndLoad\\SaveSystem.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAwB4AAAA0AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T07:12:29.084Z"
+              "WhenOpened": "2025-11-24T07:12:29.084Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -96,7 +96,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Quest_1\\VisualNovel.cs",
               "ToolTip": "D:\\Cinemachine\\Assets\\Scripts\\Quest_1\\VisualNovel.cs",
               "RelativeToolTip": "Assets\\Scripts\\Quest_1\\VisualNovel.cs",
-              "ViewState": "AQIAADsAAAAAAAAAAAAYwEkAAAAlAAAA",
+              "ViewState": "AQIAAH0AAAAAAAAAAAAAAIgAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-20T06:07:11.35Z",
               "EditorCaption": ""

@@ -4,6 +4,7 @@ using UnityEngine.UI;
 using System.Collections;
 using UnityEngine.Video;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using Unity.VisualScripting;
 using UnityEngine.VFX;
 
@@ -16,7 +17,6 @@ public class VisualNovel : MonoBehaviour
     public TMP_Text SpeakerText;
     public AudioClip[] audios;
     public AudioSource source;
-    public VideoPlayer IntroPlayer;
 
     public Image backgroundPanel;             
     public Sprite[] backgroundImages;         
@@ -41,8 +41,6 @@ public class VisualNovel : MonoBehaviour
     void Start()
     {
         Eris.SetActive(false);
-        IntroPlayer.loopPointReached += occurflicker;
-        IntroPlayer.started += StopBackgroundAudio;
     }
 
     public void StartVN()
@@ -59,7 +57,7 @@ public class VisualNovel : MonoBehaviour
         }
     }
 
-    public void occurflicker(VideoPlayer vp)
+    /*public void occurflicker(VideoPlayer vp)
     {
         StartCoroutine(FlickerAndContinue());
     }
@@ -74,7 +72,7 @@ public class VisualNovel : MonoBehaviour
         VideoObject.SetActive(false);
         NextDialogueButton.SetActive(true);
         NextLine();   
-    }
+    }*/
 
 
     public void NextLine()
@@ -115,9 +113,28 @@ public class VisualNovel : MonoBehaviour
                     go.SetActive(false);
                 }
 
-                IntroPlayer.Play();
-                IntroPlayer.isLooping = false;
+                StartCoroutine(Flicker(0.2f, 6));
 
+                currentbackgroundindex = 2;
+                StartCoroutine(ChangeBackground(2));
+
+                foreach (GameObject go in Ridlist)
+                {
+                    go.SetActive(true);
+                }
+
+            }
+
+            if(index == 32)
+            {
+                Text_Area.color = Color.red;
+                DialogueLines[index] = DialogueLines[index].ToUpper();
+            }
+
+            if(index == 33)
+            {
+                StartCoroutine(Flicker(2f, 1));
+                SceneManager.LoadScene("Menu");
             }
 
             if(index >= 23 && index <= 30)
