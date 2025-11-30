@@ -65,7 +65,7 @@ This was created to:
 
 ## Contact  
 **Last Life Studios**  
- GitHub: *[(your username here)](https://github.com/Bharath-serman)*  
+ GitHub: *[(Bharath-serman)](https://github.com/Bharath-serman)*  
  Email: *bharathserman@gmail.com*  
 
 ---
