@@ -59,7 +59,10 @@ This was created to:
 - Longer 3D level  
 - Voice acting  
 - VN-style ending  
-- VR version 
+- VR version
+
+## Installer
+https://drive.google.com/file/d/1Ojts8ofkVY4pIVq7TauV797-ymMGA6cc/view
 
 ---
 
