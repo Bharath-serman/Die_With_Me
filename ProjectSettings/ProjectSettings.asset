@@ -928,7 +928,13 @@ PlayerSettings:
   XboxOneOverrideIdentityName: 
   XboxOneOverrideIdentityPublisher: 
   vrEditorSettings: {}
-  cloudServicesEnabled: {}
+  cloudServicesEnabled:
+    Build: 0
+    Game Performance: 0
+    Legacy Analytics: 0
+    Purchasing: 0
+    UDP: 0
+    Unity Ads: 0
   luminIcon:
     m_Name: 
     m_ModelFolderPath: 
@@ -951,7 +957,7 @@ PlayerSettings:
   cloudProjectId: 950b4801-0922-4675-826f-2683967545ff
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Cinemachine
+  projectName: Die_With_Me
   organizationId: unity_95b59a87642f203d6421
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
