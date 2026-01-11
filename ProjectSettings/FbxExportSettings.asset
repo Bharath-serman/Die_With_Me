@@ -6,7 +6,7 @@
         "m_EditorClassIdentifier": "",
         "Verbose": false,
         "launchAfterInstallation": true,
-        "HideSendToUnityMenu": true,
+        "HideSendToUnityMenu": false,
         "BakeAnimation": false,
         "showConvertToPrefabDialog": true,
         "integrationSavePath": "D:\\Cinemachine",
@@ -28,7 +28,7 @@
             "include": 2,
             "lodLevel": 0,
             "objectPosition": 0,
-            "exportUnrendered": true,
+            "exportUnrendered": false,
             "preserveImportSettings": false,
             "keepInstances": true,
             "embedTextures": false
